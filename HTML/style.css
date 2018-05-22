@@ -1,0 +1,49 @@
+body {
+    background-color:rgb(159, 201, 235);
+}
+h1 {
+    color: rgb(124, 96, 138) ; 
+    font-size:50px; 
+    text-align: center; 
+    border:2px solid DodgerBlue;
+}
+p {
+    font-size:20px;
+    background-color:DodgerBlue;
+    border: 1px solid powderblue;
+    padding: 20px;
+    margin: 50px;
+}
+
+a{
+    color: DodgerBlue;
+    margin: 50px;
+}
+
+
+
+
+/* Colors handling while hover/click or visit a link */
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color:dodgerblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* End */
+
